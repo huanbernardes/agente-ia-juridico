@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "jest --runInBand"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,11 @@
     "axios": "^1.15.2",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^7.2.2"
   }
 }
